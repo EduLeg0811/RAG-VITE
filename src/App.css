@@ -1,0 +1,126 @@
+@@ .. @@
+ /* Upload Section */
++.file-upload-section {
++  background: var(--glass-bg);
++  border-radius: var(--radius-lg);
++  padding: 1.5rem;
++  box-shadow: var(--shadow-md);
++  border: 1px solid var(--glass-border);
++  backdrop-filter: blur(10px);
++  -webkit-backdrop-filter: blur(10px);
++  margin-bottom: 1.5rem;
++}
++
++.file-upload-section h3 {
++  display: flex;
++  align-items: center;
++  gap: 0.5rem;
++  margin-bottom: 0.5rem;
++  color: var(--color-secondary);
++  font-size: 1.1rem;
++  font-weight: 700;
++}
++
++.upload-area {
++  margin: 1rem 0;
++}
++
++.file-input {
++  display: none;
++}
++
++.upload-label {
++  display: inline-flex;
++  align-items: center;
++  gap: 0.5rem;
++  background: var(--color-primary);
++  color: white;
++  padding: 0.75rem 1.5rem;
++  border-radius: var(--radius-md);
++  cursor: pointer;
++  font-weight: 600;
++  transition: all 0.2s;
++  box-shadow: var(--shadow-sm);
++}
++
++.upload-label:hover {
++  background: var(--color-primary-dark);
++  transform: translateY(-1px);
++  box-shadow: var(--shadow-md);
++}
++
++.uploaded-files {
++  margin-top: 1rem;
++}
++
++.uploaded-files h4 {
++  margin-bottom: 0.75rem;
++  color: var(--color-secondary);
++  font-size: 0.95rem;
++}
++
++.file-item {
++  display: flex;
++  align-items: center;
++  justify-content: space-between;
++  padding: 0.75rem;
++  background: rgba(255, 255, 255, 0.3);
++  border-radius: var(--radius-sm);
++  margin-bottom: 0.5rem;
++  border: 1px solid var(--glass-border);
++}
++
++.file-info {
++  display: flex;
++  align-items: center;
++  gap: 0.5rem;
++  flex: 1;
++}
++
++.file-name {
++  font-weight: 500;
++  flex: 1;
++}
++
++.file-status {
++  font-size: 0.8rem;
++  padding: 0.2rem 0.5rem;
++  border-radius: var(--radius-sm);
++  font-weight: 600;
++}
++
++.file-status.processed {
++  background: rgba(46, 196, 182, 0.2);
++  color: var(--color-success);
++}
++
++.file-status.pending {
++  background: rgba(255, 159, 28, 0.2);
++  color: var(--color-warning);
++}
++
++.remove-button {
++  background: var(--color-error);
++  color: white;
++  border: none;
++  border-radius: var(--radius-full);
++  width: 24px;
++  height: 24px;
++  display: flex;
++  align-items: center;
++  justify-content: center;
++  cursor: pointer;
++  transition: all 0.2s;
++}
++
++.remove-button:hover {
++  background: #c41e3a;
++  transform: scale(1.1);
++}
++
++.remove-button .icon {
++  width: 12px;
++  height: 12px;
++}
++
+ .export-section {
