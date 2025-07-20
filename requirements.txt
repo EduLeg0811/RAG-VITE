@@ -1,0 +1,30 @@
+# Core dependencies
+streamlit
+langchain
+langchain-community
+langchain-core
+langchain-openai
+langchain-text-splitters
+openai
+faiss-cpu
+
+# Streamlit extensions
+streamlit-extras
+streamlit-avatar
+streamlit-card
+streamlit-toggle-switch
+st-annotated-text
+st-theme
+
+# Document processing
+python-docx
+markdown-it-py
+
+# External services
+tqdm
+
+# Utilities
+numpy
+pandas
+pydantic
+python-dotenv
